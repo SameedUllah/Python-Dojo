@@ -1,6 +1,6 @@
 # If/ Else conditions are used to decide to do something based on something being true or false
-x = 2
-y = 4
+x = 10
+y = 20
 
 
 # Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
@@ -12,12 +12,25 @@ elif x == y:
 else:
     print(f'{y} is greater than {x}')
 
+# Nested if statement
+if x > 2:
+    if x <= 10:
+        print(f'{x} is greater than 2 and less than or equal to 10')
+
 
 
 # Logical operators (and, or, not) - Used to combine conditional statements
 
+# And
+if x > 2 and x <= 10:
+    print(f'{x} is greater than 2 and less than or equal to 10')
 
+# Or
+if x > 2 or x <= 10:
+    print(f'{x} is greater than 2 and less than or equal to 10')
 
+# Not
+if x > 2 not x<=10
 
 # Membership Operators (in, not in) - Membership operators are used to test if a sequence is presented in an object
 

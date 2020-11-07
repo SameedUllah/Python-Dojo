@@ -30,7 +30,22 @@ people = ['john', 'paul','sara','william']
 
 # While loops execute a set of statements as long as a condition is true.
 
+# count = 0
+# while count <=10:
+#     print(f'Count {count}')
+#     count +=1
+
+
+array1 = [True,  True,  True,  False,
+          True,  True,  True,  True ,
+          True,  False, True,  False,
+          True,  False, False, True ,
+          True,  True,  True,  True ,
+          False, False, True,  True ]
+
 count = 0
-while count <=10:
-    print(f'Count {count}')
-    count +=1
+for i in array1:
+    if i == True :
+        count += 1
+
+print(f'total a = {count}')

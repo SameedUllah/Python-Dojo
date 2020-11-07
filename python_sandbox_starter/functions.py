@@ -10,11 +10,14 @@ def getSum(num1, num2) :
     result = num1+num2
     return result
 
-num = (getSum(2,4))
+print(getSum(2,4))
+
 
 
 
 getSum = lambda num1, num2: num1 + num2
+
+print(getSum(3, 6))
 
 
 

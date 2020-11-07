@@ -1,8 +1,16 @@
 # If/ Else conditions are used to decide to do something based on something being true or false
-
+x = 2
+y = 4
 
 
 # Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
+# elif
+if x>y:
+    print(f'{x} is greater than {y}')
+elif x == y:
+    print(f'{x} is equal to {y}')
+else:
+    print(f'{y} is greater than {x}')
 
 
 

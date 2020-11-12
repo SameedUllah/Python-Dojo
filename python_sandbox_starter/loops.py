@@ -36,16 +36,35 @@ people = ['john', 'paul','sara','william']
 #     count +=1
 
 
-array1 = [True,  True,  True,  False,
+sheep = [True,  True,  True,  False,
           True,  True,  True,  True ,
           True,  False, True,  False,
           True,  False, False, True ,
           True,  True,  True,  True ,
           False, False, True,  True ]
 
-count = 0
-for i in array1:
-    if i == True :
-        count += 1
+print (sheep.count(True))
+# def count_sheeps (sheep):
 
-print(f'total a = {count}')
+
+# present = 0
+# missing = 0
+
+# for i in sheep:
+#     if i == True :
+#         present += 1
+#     else :
+#         missing += 1
+
+# print(f'There are {present} sheeps in total, not {present + missing}')
+
+
+
+
+# string = "This website is for losers LOL!"
+# vovel = ['a','e','i','o','u','O']
+# for i in string:
+#     # print(i)
+#     if i ==  vovel:
+#         continue 
+#     print(i)

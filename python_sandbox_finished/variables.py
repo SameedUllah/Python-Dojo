@@ -20,14 +20,17 @@ VARIABLE RULES:
 # is_cool = True  # bool
 
 # Multiple assignment
-x, y, name, is_cool = (1, 2.5, 'John', True)
+# x, y, name, is_cool = (1, 2.5, 'John', True)
 
 # Basic math
-a = x + y
+# a = x + y
 
 # Casting
-x = str(x)
-y = int(y)
-z = float(y)
+# x = str(x)
+# y = int(y)
+# z = float(y)
 
-print(type(z), z)
+# print(type(z), z)
+
+# x = 123456789
+# print(x.sort())

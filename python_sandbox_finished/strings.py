@@ -60,3 +60,4 @@ print(s.isalpha())
 
 # Is all numeric
 print(s.isnumeric())
+
